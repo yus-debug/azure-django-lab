@@ -6,6 +6,7 @@ def home(request):
     <html>
     <body>
     <h1>Hello from Azure!</h1>
+    <p><strong>Pipeline is working!</strong></p>
     </body>
     </html>
     """)
