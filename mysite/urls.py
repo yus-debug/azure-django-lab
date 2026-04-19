@@ -4,9 +4,11 @@ from django.urls import path
 def home(request):
     return HttpResponse("""
     <html>
-    <body>
-    <h1>Hello from Azure!</h1>
-    <p><strong>Pipeline is working!</strong></p>
+    <head><title>Azure Django Lab</title></head>
+    <body style="font-family: Arial; padding: 40px;">
+        <h1 style="color: #0066cc;">Version 2 - Updated Automatically!</h1>
+        <p>This change was deployed with zero manual server work.</p>
+        <p>The CI/CD pipeline handled everything.</p>
     </body>
     </html>
     """)
